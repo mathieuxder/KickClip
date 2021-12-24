@@ -1,0 +1,203 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: 'Vujahday Script', cursive;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: 'Vujahday Script', cursive;
+
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color:black;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+  font-family: 'Montagu Slab', serif;
+}
+
+.navbar-brand {
+  font-family:'Vujahday Script', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+  
+}
+
+.nav-item {
+  padding: 0 18px;
+  
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(14,3,66,1) 16%, rgba(30,7,105,1) 38%, rgba(37,9,121,1) 60%, rgba(171,0,255,1) 88%);  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 1%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(14,3,66,1) 16%, rgba(30,7,105,1) 38%, rgba(37,9,121,1) 60%, rgba(171,0,255,1) 88%);  color: #fff;
+
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-family: 'Montagu Slab', serif;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ab00ff;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ab00ff;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(14,3,66,1) 16%, rgba(30,7,105,1) 38%, rgba(37,9,121,1) 60%, rgba(171,0,255,1) 88%);  color: #fff;
+}
+
+.testimonial-text {
+  font-family: ;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(14,3,66,1) 16%, rgba(30,7,105,1) 38%, rgba(37,9,121,1) 60%, rgba(171,0,255,1) 88%);  color: #fff;
+
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(14,3,66,1) 16%, rgba(30,7,105,1) 38%, rgba(37,9,121,1) 60%, rgba(171,0,255,1) 88%);  color: #fff;
+
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: black;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+footer{
+  background-color: black;
+  
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
